@@ -2,4 +2,8 @@
     <string name="app_name">Android Introduction</string>
     <string name="it_s_task1">It\'s task1</string>
     <string name="push_me">Push me</string>
+    <string name="test">test</string>
+    <string name="just_text">just text</string>
+    <string name="input_you_name">input you name</string>
+    <string name="to_test2">to test2</string>
 </resources>

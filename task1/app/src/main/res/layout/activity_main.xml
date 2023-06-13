@@ -3,43 +3,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:fontFamily="serif"
-        android:text="@string/it_s_task1"
-        android:textColor="#A5260A"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
         android:layout_gravity="center"
         android:layout_margin="40dp"
-        android:padding="10dp"/>
+        android:background="@color/black"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="@string/it_s_task1"
+        android:textAlignment="center"
+        android:textColor="#A5260A"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/test2_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/push_me"/>
+        android:backgroundTint="@color/black"
+        android:text="@string/to_test2"
+        android:textColor="#D2691E"
+        android:textSize="20dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/it_s_task1" />
+        android:hint="@string/it_s_task1"
+        android:textStyle="bold"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textSize="18dp"
+        android:background="#FFC8A8"/>
 
     <Switch
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:checked="false"
+        android:text="SwitchCompat"
+        android:textOff="OFF"
+        android:textOn="ON"/>
 
     <CheckBox
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:padding="20dp"
+        android:text="@string/test"
+        android:textColor="#f44"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="Не гладить"
+        android:textOn="Гладить" />
 
 </LinearLayout>
